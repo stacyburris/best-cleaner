@@ -1,13 +1,20 @@
+import React from 'react';
+import Header from './components/header/header';
+import Carousels from './components/carousels/carousels';
+import Footer from './components/footer/footer';
+import Services from './components/services/services';
+//import Contact from './components/contact/contact';
 
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-    
-      </header>
-    </div>
+    <>
+    <Header/>
+    <Carousels/>
+    <Services/>
+    {/* <Contact/> */}
+    <Footer/>
+    </>
   );
 }
 
