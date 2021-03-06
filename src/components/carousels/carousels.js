@@ -1,48 +1,78 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
 import livingRoom from '../images/livingRoom.jpg';
-import bathroom from '../images/Bathroom.jpg';
-import bedroom from '../images/Bedroomimages.jpg';
+//import bathroom from '../images/Bathroom.jpg';
+import bathroom2 from '../images/Bathroom2.jpg';
+import bedroom from '../images/bedroom.jpg';
+import kitchen from '../images/kitchen.jpg';
+import secondKitchen from '../images/kitchen2.jpg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './carousels.scss';
 
 const Carousels = ()  => {
 
 
 return (
 <>
-<Carousel>
+<Carousel  className="details">
+
   <Carousel.Item>
-    <img
+  <img id="images"
       className="d-block w-100"
-      src={livingRoom}
+      src={secondKitchen}
       alt="First slide"
     />
     <Carousel.Caption>
-      <h1>Best Cleaner</h1>
+    <h1 id="header">Best Cleaner</h1>
       <p>Your free time wasn't made for housework</p>
     </Carousel.Caption>
   </Carousel.Item>
+
   <Carousel.Item>
-    <img
+    <img id="images"
       className="d-block w-100"
-      src={bathroom}
+      src={livingRoom}
       alt="Second slide"
     />
-
     <Carousel.Caption>
-    <h1>Best Cleaner</h1>
+    <h1 id="header">Best Cleaner</h1>
       <p>Your free time wasn't made for housework</p>
     </Carousel.Caption>
   </Carousel.Item>
+
   <Carousel.Item>
-    <img
+    <img id="images"
+      className="d-block w-100"
+      src={bathroom2}
+      alt="Third slide"
+    />
+    <Carousel.Caption>
+    <h1 id="header">Best Cleaner</h1>
+      <p>Your free time wasn't made for housework</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+
+<Carousel.Item>
+    <img id="images"
+      className="d-block w-100"
+      src={kitchen}
+      alt="Third slide"
+    />
+    <Carousel.Caption>
+    <h1 id="header">Best Cleaner</h1>
+      <p>Your free time wasn't made for housework</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+
+  <Carousel.Item>
+    <img id="images"
+
       className="d-block w-100"
       src={bedroom}
       alt="Third slide"
     />
-
     <Carousel.Caption>
-    <h1>Best Cleaner</h1>
+    <h1 id="header">Best Cleaner</h1>
       <p>Your free time wasn't made for housework</p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -53,3 +83,6 @@ return (
 
 
 export default Carousels;
+
+
+
