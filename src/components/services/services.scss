@@ -18,6 +18,7 @@
     transform-style: preserve-3d;
   }
   .flip-card:hover .flip-card-inner {
+    color:rgb(206, 111, 202);
     transition: transform 1s;
     transition-delay: 0.5s;
     transform: rotateY(180deg);
@@ -31,34 +32,52 @@
   }
   .flip-card-front {
     background-color: none;
-    color: black;
+    color: rgb(69, 63, 151);
     border-left-color:#eee;
     border-radius:2px;
    border-right-color:#eee;
     border-top-color:#ddd;
     box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
-    box-sizing:border-box;
-    img{
-        border:solid 2px;
-        border-bottom-color:#ffe;
-        border-left-color:#eed;
-        border-right-color:#eed;
-        border-top-color:#ccb;
-        max-height:100%;
-        max-width:100%;
-      }
+    box-sizing: border-box;
+    // img{
+    //     border:solid 2px;
+    //     border-bottom-color:#ffe;
+    //     border-left-color:#eed;
+    //     border-right-color:#eed;
+    //     border-top-color:#ccb;
+    //     max-height:100%;
+    //     max-width:100%;
+    //   }
   }
   .flip-card-back {
     color: white;
     transform: rotateY(180deg);
+//     background-color: none;
+//     color: black;
+    border-left-color:#eee;
+    border-radius:2px;
+   border-right-color:#eee;
+    border-top-color:#ddd;
+     box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+     box-sizing: border-box;
   }
   #backContent{
-    border: 5px inset rgb(151, 143, 50);
+    border: 5px inset rgb(134, 40, 130);
   }
   #grid{
     margin: 10% 30% 10% 35%;
     width: 35%;
+
   }
   #results{
     text-align: center;
+  }
+
+  #top-div{
+float: left;
+
+  }
+
+  #bottom-div{
+      float: right;
   }

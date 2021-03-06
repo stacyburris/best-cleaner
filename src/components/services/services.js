@@ -38,7 +38,7 @@ export default function Services(){
   return (
         <>
           <div class="container">
-            <div>
+            <div id="top-div">
             <Grid container spacing={4} direction="column" id="grid">
             <div class="flip-card">
               <div class="flip-card-inner">
@@ -144,6 +144,7 @@ export default function Services(){
       
         <br/>
         <Grid container spacing={4} direction="column" id="grid">
+          <div id="bottom-div">
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
@@ -205,6 +206,7 @@ export default function Services(){
               </Grid>
             </div>
           </div>
+        </div>
         </div>
         </Grid> 
       </div>
