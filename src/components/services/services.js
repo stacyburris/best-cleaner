@@ -12,24 +12,24 @@ import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 //import Clean from '../images/clean.jpg';
 import './services.scss';
-import { makeStyles } from '@material-ui/core/styles';
+//import { makeStyles } from '@material-ui/core/styles';
 //import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 //import Icon from '@material-ui/core/Icon';
 
-const useStyles = makeStyles({
-  root: {
-    minWidth: 275,
-  },
-  bullet: {
-    display: 'inline-block',
-    margin: '0 2px',
-    transform: 'scale(0.8)',
-  },
-  title: {
-    fontSize: 14,
-  },
+// const useStyles = makeStyles({
+//   root: {
+//     minWidth: 275,
+//   },
+//   bullet: {
+//     display: 'inline-block',
+//     margin: '0 2px',
+//     transform: 'scale(0.8)',
+//   },
+//   title: {
+//     fontSize: 14,
+//   },
 
-});
+// });
 
 
 // option 1 with material ui card flip with service area of front and details on back 
