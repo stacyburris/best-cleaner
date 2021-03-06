@@ -10,7 +10,7 @@ const Recommendations = ()  => {
     return (
     <Carousel fade >
     <Carousel.Item>
-         <img className="carousel-size"
+         <img id="carousel-size"
         className="d-block w-100"
         src={Background}
         alt="First slide"
@@ -38,7 +38,7 @@ const Recommendations = ()  => {
 </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
-        <img className="carousel-size"
+        <img id="carousel-size"
         className="d-block w-100"
         src={Background}
         alt="Second slide"
@@ -52,7 +52,7 @@ const Recommendations = ()  => {
         </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
-        <img className="carousel-size"
+        <img id="carousel-size"
         className="d-block w-100"
         src={Background}
         alt="Third slide"
@@ -67,7 +67,7 @@ const Recommendations = ()  => {
         </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
-        <img className="carousel-size"
+        <img id="carousel-size"
         className="d-block w-100"
         src={Background}
         alt="Fourth slide"

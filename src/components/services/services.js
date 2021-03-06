@@ -10,7 +10,7 @@ import Typography from '@material-ui/core/Typography';
 import CardContent from '@material-ui/core/CardContent';
 //import CardActions from '@material-ui/core/CardActions';
 import Button from '@material-ui/core/Button';
-import Clean from '../images/clean.jpg';
+//import Clean from '../images/clean.jpg';
 import './services.scss';
 import { makeStyles } from '@material-ui/core/styles';
 //import ArrowRightIcon from '@material-ui/icons/ArrowRight';
@@ -34,7 +34,7 @@ const useStyles = makeStyles({
 
 // option 1 with material ui card flip with service area of front and details on back 
 export default function Services(){
-  const classes = useStyles();
+  //const classes = useStyles();
   return (
         <>
           <div class="container">
