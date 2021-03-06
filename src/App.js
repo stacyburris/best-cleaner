@@ -4,6 +4,7 @@ import Carousels from './components/carousels/carousels';
 import Footer from './components/footer/footer';
 import Services from './components/services/services';
 import Recommendations from './components/recommendations/recommendations';
+import About from './components/about/about';
 //import Contact from './components/contact/contact';
 
 
@@ -14,6 +15,7 @@ function App() {
     <Carousels/>
     <Services/>
     <Recommendations/>
+    <About/>
 
     {/* <Contact/> */}
     <Footer/>
