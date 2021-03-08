@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, Row, Col, Fade } from 'react-bootstrap';
+import { Container, Row, Col} from 'react-bootstrap';
+import './about.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -10,37 +11,38 @@ const About = () => {
 //     src={secondKitchen}
 //     alt="First slide"
 //   />
-
+// </Fade>  </Fade>  </Fade>  </Fade>
 return (
-    <section id="about">
-      <Container>
+    // <section id="about">
+      <Container class="about-me">
        
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
-            <Fade>
-              <div className="about-wrapper__image">
-                <img id="profile-picture" src='https://via.placeholder.com/150' alt="photo" />
+            
+              <div className="about-image">
+             
+                <img id="profile-picture" 
+                className="d-block w-100"
+                src="https://via.placeholder.com/200"
+                alt="photo" />
               </div>
-            </Fade>
+          
           </Col>
           <Col md={6} sm={12}>
-            <Fade>
-              <div className="about-wrapper__info">
-                <p className="about-wrapper__info-text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.
+          
+              <div className="about">
+                <p>I am a licensed and bonded professional House Cleaner.  My business has been operating in the greater Seattle area for 10 years.  My cleanings are done in homes with or without pets and kids. Using my excellent organizational skills, I pick up misplaced items and put them where they belong and tidy up shelves and furniture as I dust and clean.
                 </p>
-                <p className="about-wrapper__info-text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.
+                <p>It is important for me to take the time to listen and understand your needs and customize a professional cleaning that you'll be completely satisfied with every time. I conduct myself as a professional and a friend with each of my clients.  
                 </p>
-                <p className="about-wrapper__info-text">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                <p>Respect for my client’s belongs and property is top priority. As an individual I am honest and reliable and an efficient worker. When I arrive, I come with my own cleaning supplies and equipment.
                 </p>
-              </div>
-            </Fade>
+              </div>    
+           
           </Col>
         </Row>
       </Container>
-    </section>
+    // </section>
   );
 };
 

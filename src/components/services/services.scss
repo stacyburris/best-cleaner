@@ -1,15 +1,21 @@
 .root{
     text-align: left;
+    // .container {
+    //   display: grid;
+    //   grid-template-columns: 1fr 1fr 1fr; /* fraction*/
+    // }
+    
   }
   .flip-card {
-    //margin: 20px auto 20px auto;
+    margin: 15px auto 30px auto;
     background-color: transparent;
+    //border-color: transparent;
     width: 500px;
     height: 300px;
     border: none;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
-  .flip-card-inner {
+  #flip-card-inner {
     position: relative;
     width: 100%;
     height: 300px;
@@ -17,67 +23,54 @@
     transition: transform 0.8s;
     transform-style: preserve-3d;
   }
-  .flip-card:hover .flip-card-inner {
+  .flip-card:hover #flip-card-inner {
     color:rgb(206, 111, 202);
     transition: transform 1s;
     transition-delay: 0.5s;
     transform: rotateY(180deg);
   }
-  .flip-card-front, .flip-card-back {
+  #flip-card-front, #flip-card-back {
     position: absolute;
     width: 100%;
     height: 300px;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
   }
-  .flip-card-front {
+  #flip-card-front {
     background-color: none;
-    color: rgb(69, 63, 151);
+    color: rgb(10, 10, 10);
     border-left-color:#eee;
     border-radius:2px;
    border-right-color:#eee;
     border-top-color:#ddd;
     box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
     box-sizing: border-box;
-    // img{
-    //     border:solid 2px;
-    //     border-bottom-color:#ffe;
-    //     border-left-color:#eed;
-    //     border-right-color:#eed;
-    //     border-top-color:#ccb;
-    //     max-height:100%;
-    //     max-width:100%;
-    //   }
+
   }
-  .flip-card-back {
-    color: white;
+  #flip-card-back, .questions {
+    //color: white;
     transform: rotateY(180deg);
-//     background-color: none;
-//     color: black;
+     background-color: none;
+    color: black;
     border-left-color:#eee;
     border-radius:2px;
    border-right-color:#eee;
     border-top-color:#ddd;
-     box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
-     box-sizing: border-box;
-  }
-  #backContent{
-    border: 5px inset rgb(134, 40, 130);
+   box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+    box-sizing: border-box;
   }
   #grid{
-    margin: 10% 30% 10% 35%;
-    width: 35%;
+    margin: 10% 30% 10% 30%;
+    // width: 35%;
 
   }
   #results{
     text-align: center;
   }
 
-  #top-div{
-float: left;
-
+.service-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% 25%;
+    grid-template-rows: 15% 15% 15% 15% 15%;
   }
 
-  #bottom-div{
-      float: right;
-  }
