@@ -6,9 +6,9 @@ import Card from 'react-bootstrap/Card';
 import './recommendation.scss';
 
 const Recommendations = ()  => {
-
+console.log('made to recommendations', Recommendations);
     return (
-    <Carousel fade >
+    <Carousel fade class="move-down">
     <Carousel.Item>
     <Card>
     <Card.Header>What Clients say about me...</Card.Header>

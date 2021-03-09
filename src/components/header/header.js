@@ -9,16 +9,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Header () {
 
-
-
 return (
-<>
+
   <Navbar bg="dark" variant="dark">
     <Navbar.Brand href="/carousels">Best Cleaner</Navbar.Brand>
     <Nav className="mr-auto">
       <Nav.Link href="/carousels">Home</Nav.Link>
-      <Nav.Link href="/about">About Me</Nav.Link>
-      <Nav.Link href="/procedure">The Procedure</Nav.Link>
       <Nav.Link href="/help">How I Help</Nav.Link>
       <Nav.Link href="/recommendations">Recommendations</Nav.Link>
       <NavDropdown title="Services" id="collasible-nav-dropdown">
@@ -29,6 +25,9 @@ return (
         <NavDropdown.Divider />
         <NavDropdown.Item href="/services">Extras</NavDropdown.Item>
       </NavDropdown>
+            <Nav.Link href="/about">About Me</Nav.Link>
+      <Nav.Link href="/procedure">The Procedure</Nav.Link>
+      
     </Nav>
     <Nav>
       <Nav.Link href="/footer">Contact Me</Nav.Link>
@@ -39,7 +38,6 @@ return (
     </Form> */}
   </Navbar>
   
-</>
 );
 }
 

@@ -36,7 +36,6 @@ import './services.scss';
 export default function Services(){
   //const classes = useStyles();
   return (
-        <>
           <div class="service-container">
             <Grid id="grid">
             <div class="flip-card">
@@ -247,8 +246,6 @@ export default function Services(){
      
         </Grid> 
       </div>
-    
-    </>
   )
 }
 
