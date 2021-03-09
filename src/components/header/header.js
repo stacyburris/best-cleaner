@@ -14,24 +14,24 @@ function Header () {
 return (
 <>
   <Navbar bg="dark" variant="dark">
-    <Navbar.Brand href="#home">Best Cleaner</Navbar.Brand>
+    <Navbar.Brand href="/carousels">Best Cleaner</Navbar.Brand>
     <Nav className="mr-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#aboutMe">About Me</Nav.Link>
-      <Nav.Link href="#procedure">The Procedure</Nav.Link>
-      <Nav.Link href="#help">How I Help</Nav.Link>
-      <Nav.Link href="#recommendations">Recommendations</Nav.Link>
+      <Nav.Link href="/carousels">Home</Nav.Link>
+      <Nav.Link href="/about">About Me</Nav.Link>
+      <Nav.Link href="/procedure">The Procedure</Nav.Link>
+      <Nav.Link href="/help">How I Help</Nav.Link>
+      <Nav.Link href="/recommendations">Recommendations</Nav.Link>
       <NavDropdown title="Services" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Kitchen</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Bathroom</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Living Room</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Bedrooms</NavDropdown.Item>
+        <NavDropdown.Item href="/services">Kitchen</NavDropdown.Item>
+        <NavDropdown.Item href="/services">Bathroom</NavDropdown.Item>
+        <NavDropdown.Item href="/services">Living Room</NavDropdown.Item>
+        <NavDropdown.Item href="/services">Bedrooms</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Extras</NavDropdown.Item>
+        <NavDropdown.Item href="/services">Extras</NavDropdown.Item>
       </NavDropdown>
     </Nav>
     <Nav>
-      <Nav.Link href="#deets">Contact Me</Nav.Link>
+      <Nav.Link href="/footer">Contact Me</Nav.Link>
     </Nav>
     {/* <Form inline>
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />

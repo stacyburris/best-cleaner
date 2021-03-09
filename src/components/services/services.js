@@ -30,25 +30,24 @@ import './services.scss';
 //   },
 
 // });
-
-
+//container spacing={2} direction="column" 
+// container spacing={2} direction="column" 
 // option 1 with material ui card flip with service area of front and details on back 
 export default function Services(){
   //const classes = useStyles();
   return (
         <>
-          <div class="container">
-            <div id="top-div">
-            <Grid container spacing={4} direction="column" id="grid">
+          <div class="service-container">
+            <Grid id="grid">
             <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
+              <div id="flip-card-inner">
+                <div id="flip-card-front">
                   <Typography variant="h5" component="h2">
                     <h2>Living Room</h2>
                   </Typography>     
                 </div>
                 <br/>
-                <div class="flip-card-back">
+                <div id="flip-card-back">
                   <Grid item xs={12}>
                     <Card className="root" variant="outlined">
                       <CardContent class="backContent">
@@ -73,15 +72,15 @@ export default function Services(){
             </div>
             <br/>
         <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
+        <div id="flip-card-inner">
+          <div id="flip-card-front">
             <Typography variant="h5" component="h2">
                <h2>Bathroom</h2>
                   </Typography> 
   
             </div>
             <br/>
-            <div class="flip-card-back">
+            <div id="flip-card-back">
               <Grid item xs={12}>
                 <Card className="root" variant="outlined">
                   <CardContent class="backContent">
@@ -105,31 +104,27 @@ export default function Services(){
         </div>
         <br/>
         <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-            <Typography variant="h5" component="h2">
-               <h2>Kitchen</h2>
+        <div id="flip-card-inner">
+          <div id="flip-card-front">
+           
+                  <Typography variant="h5" component="h2">
+               <h2>Extras</h2>
                   </Typography> 
-         
             </div>
             <br/>
-            <div class="flip-card-back">
+            <div id="flip-card-back">
               <Grid item xs={12}>
                 <Card className="root" variant="outlined">
                   <CardContent class="backContent">
                     <Typography className="question" color="textSecondary" gutterBottom>
                     <h2>Included in a cleaning</h2>
                         <ul>
-                          <li>Wash dishes or load dishwasher</li>
-                          <li>Dust surfaces</li>
-                          <li>Wipe exterior of kitchen cupboards, oven and fridge</li>
-                          <li>Clean microwave interior and exterior</li>
-                          <li>Wipe switches and handles</li>
-                          <li>Wipe countertops </li>
-                          <li>Clean the sink</li>
-                          <li>Put away clean dishes</li>
-                          <li>Take out garbage and recycling</li>
-                          <li>Vacuum and wash floors</li>
+                          <li>Inside of refrigerator</li>
+                          <li>Laundry</li>
+                          <li>Make beds</li>
+                          <li>Inside of kitchen cabinets</li>
+                          <li>Stock supplies</li>
+                          <li>Organize closets and cupboards</li>
                         </ul>
                   </Typography>
                     <Button></Button>
@@ -140,21 +135,21 @@ export default function Services(){
           </div>
         </div>
              </Grid>
-        </div>
+    
       
         <br/>
-        <Grid container spacing={4} direction="column" id="grid">
-          <div id="bottom-div">
+        <Grid id="grid">
+     
         <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
+        <div id="flip-card-inner">
+          <div id="flip-card-front">
             <Typography variant="h5" component="h2">
                <h2>Bedrooms</h2>
                   </Typography> 
           
             </div>
             <br/>
-            <div class="flip-card-back">
+            <div id="flip-card-back">
               <Grid item xs={12}>
                 <Card className="root" variant="outlined">
                   <CardContent class="backContent">
@@ -177,27 +172,32 @@ export default function Services(){
         </div>
         <br/>
         <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
+        <div id="flip-card-inner">
+          <div id="flip-card-front">
             <Typography variant="h5" component="h2">
-               <h2>Extras</h2>
+               <h2>Kitchen</h2>
                   </Typography> 
          
             </div>
             <br/>
-            <div class="flip-card-back">
+            <div id="flip-card-back">
               <Grid item xs={12}>
                 <Card className="root" variant="outlined">
                   <CardContent class="backContent">
                     <Typography className="question" color="textSecondary" gutterBottom>
-                    <h2>Included in a cleaning</h2>
+                   
+                        <h2>Included in a cleaning</h2>
                         <ul>
-                          <li>Inside of refrigerator</li>
-                          <li>Laundry</li>
-                          <li>Make beds</li>
-                          <li>Inside of kitchen cabinets</li>
-                          <li>Stock supplies</li>
-                          <li>Organize closets and cupboards</li>
+                          <li>Wash dishes or load dishwasher</li>
+                          <li>Dust surfaces</li>
+                          <li>Wipe exterior of kitchen cupboards, oven and fridge</li>
+                          <li>Clean microwave interior and exterior</li>
+                          <li>Wipe switches and handles</li>
+                          <li>Wipe countertops </li>
+                          <li>Clean the sink</li>
+                          <li>Put away clean dishes</li>
+                          <li>Take out garbage and recycling</li>
+                          <li>Vacuum and wash floors</li>
                         </ul>
                   </Typography>
                     <Button></Button>
@@ -207,7 +207,44 @@ export default function Services(){
             </div>
           </div>
         </div>
+        <br/>
+        <div class="flip-card">
+        <div id="flip-card-inner">
+          <div id="flip-card-front">
+            <Typography variant="h5" component="h2">
+               <h2>Blank</h2>
+                  </Typography> 
+         
+            </div>
+            <br/>
+            <div id="flip-card-back">
+              <Grid item xs={12}>
+                <Card className="root" variant="outlined">
+                  <CardContent class="backContent">
+                    <Typography className="question" color="textSecondary" gutterBottom>
+                   
+                        <h2>Included in a cleaning</h2>
+                        <ul>
+                          <li>Wash dishes or load dishwasher</li>
+                          <li>Dust surfaces</li>
+                          <li>Wipe exterior of kitchen cupboards, oven and fridge</li>
+                          <li>Clean microwave interior and exterior</li>
+                          <li>Wipe switches and handles</li>
+                          <li>Wipe countertops </li>
+                          <li>Clean the sink</li>
+                          <li>Put away clean dishes</li>
+                          <li>Take out garbage and recycling</li>
+                          <li>Vacuum and wash floors</li>
+                        </ul>
+                  </Typography>
+                    <Button></Button>
+                  </CardContent>
+                </Card>
+              </Grid>
+            </div>
+          </div>
         </div>
+     
         </Grid> 
       </div>
     
