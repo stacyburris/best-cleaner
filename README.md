@@ -11,6 +11,10 @@
 + example photos 
 + Reviews
 
+//Package.json
+// "react": "^17.0.1",
+//"react-dom": "^17.0.1",
+//  "react-router-dom": "^5.2.0",
 
 # Getting Started with Create React App
 

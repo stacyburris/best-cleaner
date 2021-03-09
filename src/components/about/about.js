@@ -14,17 +14,17 @@ const About = () => {
 // </Fade>  </Fade>  </Fade>  </Fade>
 return (
     // <section id="about">
-      <Container class="about-me">
+      <Container>
        
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             
               <div className="about-image">
              
-                <img id="profile-picture" 
+                <img id="profile" 
                 className="d-block w-100"
                 src="https://via.placeholder.com/200"
-                alt="photo" />
+                alt="" />
               </div>
           
           </Col>
