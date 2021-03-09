@@ -13,8 +13,8 @@ const Carousels = ()  => {
 
 
 return (
-<>
-<Carousel  className="details">
+
+<Carousel className="details">
 
   <Carousel.Item>
   <img id="images"
@@ -77,7 +77,7 @@ return (
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-</>
+
     );
 }
 
