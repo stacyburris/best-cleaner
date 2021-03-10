@@ -8,6 +8,7 @@ import kitchen from '../images/kitchen.jpg';
 import secondKitchen from '../images/kitchen2.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './carousels.scss';
+import Card from 'react-bootstrap/Card';
 
 const Carousels = ()  => {
 
@@ -20,11 +21,13 @@ return (
   <img id="images"
       className="d-block w-100"
       src={secondKitchen}
-      alt="First slide"
+      alt="Best Cleaner"
     />
     <Carousel.Caption>
+      <div id="welcome-header">
     <h1 id="header">Best Cleaner</h1>
       <p>Your free time wasn't made for housework</p>
+      </div>
     </Carousel.Caption>
   </Carousel.Item>
 
@@ -32,11 +35,13 @@ return (
     <img id="images"
       className="d-block w-100"
       src={livingRoom}
-      alt="Second slide"
+      alt="Best Cleaner"
     />
     <Carousel.Caption>
+    <div id="welcome-header">
     <h1 id="header">Best Cleaner</h1>
       <p>Your free time wasn't made for housework</p>
+      </div>
     </Carousel.Caption>
   </Carousel.Item>
 
@@ -44,11 +49,19 @@ return (
     <img id="images"
       className="d-block w-100"
       src={bathroom2}
-      alt="Third slide"
+      alt="Best Cleaner"
     />
     <Carousel.Caption>
+    <Card id="sticky">
+  <Card.Body>  
     <h1 id="header">Best Cleaner</h1>
       <p>Your free time wasn't made for housework</p>
+      </Card.Body>
+</Card>
+    {/* <div id="welcome-header">
+    <h1 id="header">Best Cleaner</h1>
+      <p>Your free time wasn't made for housework</p>
+      </div> */}
     </Carousel.Caption>
   </Carousel.Item>
 
@@ -56,11 +69,13 @@ return (
     <img id="images"
       className="d-block w-100"
       src={kitchen}
-      alt="Third slide"
+      alt="Best Cleaner"
     />
     <Carousel.Caption>
+    <div id="welcome-header">
     <h1 id="header">Best Cleaner</h1>
       <p>Your free time wasn't made for housework</p>
+    </div>
     </Carousel.Caption>
   </Carousel.Item>
 
@@ -69,11 +84,13 @@ return (
 
       className="d-block w-100"
       src={bedroom}
-      alt="Third slide"
+      alt="Best Cleaner"
     />
     <Carousel.Caption>
+    <div id="welcome-header">
     <h1 id="header">Best Cleaner</h1>
       <p>Your free time wasn't made for housework</p>
+      </div>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

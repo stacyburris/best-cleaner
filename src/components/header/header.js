@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 // import Form from 'react-bootstrap/Form';
 // import FormControl from 'react-bootstrap/FormControl';
-// import Button from 'react-bootstrap/Button';
+import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Header () {
@@ -12,9 +12,9 @@ function Header () {
 return (
 
   <Navbar bg="dark" variant="dark">
-    <Navbar.Brand href="/carousels">Best Cleaner</Navbar.Brand>
+    <Navbar.Brand href="/">Best Cleaner</Navbar.Brand>
     <Nav className="mr-auto">
-      <Nav.Link href="/carousels">Home</Nav.Link>
+      <Nav.Link href="/">Home</Nav.Link>
       <Nav.Link href="/help">How I Help</Nav.Link>
       <Nav.Link href="/recommendations">Recommendations</Nav.Link>
       <NavDropdown title="Services" id="collasible-nav-dropdown">
