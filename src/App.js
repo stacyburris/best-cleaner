@@ -10,7 +10,7 @@
 // import Procedure from './components/procedure/procedure';
 // import Recommendations from './components/recommendations/recommendations';
 // import About from './components/about/about';
- import { Switch, Route } from 'react-router-dom';
+ 
 
 // function App() {
 //   return (
@@ -51,7 +51,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Pagination from 'react-bootstrap/Pagination'
 import ReactPageScroller from 'react-page-scroller';
 import Help from './components/help/help';
-
+import { Switch, Route } from 'react-router-dom';
+import './App.scss';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -87,26 +88,26 @@ export default class App extends React.Component {
 
     return (     
       <>
-        <Header/>
+        <Header />
         <Switch>
         <Route exact path='/'> 
-        <ReactPageScroller
+      <ReactPageScroller
           pageOnChange={this.handlePageChange}
           onBeforePageScroll={this.handleBeforePageChange}
           customPageNumber={this.state.currentPage}
         >
-        <Carousels/>
-        <Help/>
-        <Recommendations/> 
-        <Services/>
-        <About/>
-        <Procedure/>
-       </ReactPageScroller>
+        <Carousels id="page-height"/>
+        <Help id="page-height"/>
+        <Recommendations id="page-height"/> 
+        <Services id="page-height"/>
+        <About id="page-height"/>
+        <Procedure id="page-height"/>
+      </ReactPageScroller>
 
-        </Route> 
+      </Route> 
       
        <Route path='/carousels' component={Carousels} exact/> 
-        <Route path='/help' component={Help} exact/>
+       <Route path='/help' component={Help} exact/>
        <Route path='/recommendations' component={Recommendations} exact/> 
        <Route path='/services' component={Services} exact/>
        <Route path='/about' component={About} exact/>

@@ -8,7 +8,7 @@ import kitchen from '../images/kitchen.jpg';
 import secondKitchen from '../images/kitchen2.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './carousels.scss';
-import Card from 'react-bootstrap/Card';
+//import Card from 'react-bootstrap/Card';
 
 const Carousels = ()  => {
 
@@ -52,16 +52,16 @@ return (
       alt="Best Cleaner"
     />
     <Carousel.Caption>
-    <Card id="sticky">
+    {/* <Card id="sticky">
   <Card.Body>  
     <h1 id="header">Best Cleaner</h1>
       <p>Your free time wasn't made for housework</p>
       </Card.Body>
-</Card>
-    {/* <div id="welcome-header">
+</Card> */}
+    <div id="welcome-header">
     <h1 id="header">Best Cleaner</h1>
       <p>Your free time wasn't made for housework</p>
-      </div> */}
+      </div>
     </Carousel.Caption>
   </Carousel.Item>
 
