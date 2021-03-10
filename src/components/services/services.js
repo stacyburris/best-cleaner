@@ -9,7 +9,7 @@ import Card from '@material-ui/core/Card';
 import Typography from '@material-ui/core/Typography';
 import CardContent from '@material-ui/core/CardContent';
 //import CardActions from '@material-ui/core/CardActions';
-import Button from '@material-ui/core/Button';
+//import Button from '@material-ui/core/Button';
 //import Clean from '../images/clean.jpg';
 import './services.scss';
 //import { makeStyles } from '@material-ui/core/styles';
@@ -37,7 +37,7 @@ export default function Services(){
   //const classes = useStyles();
   return (
           <div class="service-container">
-            <Grid id="grid">
+            {/* <Grid id="grid"> */}
             <div class="flip-card">
               <div id="flip-card-inner">
                 <div id="flip-card-front">
@@ -45,7 +45,7 @@ export default function Services(){
                     <h2>Living Room</h2>
                   </Typography>     
                 </div>
-                <br/>
+              
                 <div id="flip-card-back">
                   <Grid item xs={12}>
                     <Card className="root" variant="outlined">
@@ -62,14 +62,14 @@ export default function Services(){
                           <li>Sanitize floors</li>
                         </ul>
                       </Typography>
-                        <Button></Button>
+
                       </CardContent>
                     </Card>
                   </Grid>
                 </div>
               </div>
             </div>
-            <br/>
+          
         <div class="flip-card">
         <div id="flip-card-inner">
           <div id="flip-card-front">
@@ -78,7 +78,7 @@ export default function Services(){
                   </Typography> 
   
             </div>
-            <br/>
+      
             <div id="flip-card-back">
               <Grid item xs={12}>
                 <Card className="root" variant="outlined">
@@ -94,14 +94,14 @@ export default function Services(){
                           <li>Vacuum and wash floors </li>
                         </ul>
                   </Typography>
-                    <Button></Button>
+           
                   </CardContent>
                 </Card>
               </Grid>
             </div>
           </div>
         </div>
-        <br/>
+ 
         <div class="flip-card">
         <div id="flip-card-inner">
           <div id="flip-card-front">
@@ -110,7 +110,7 @@ export default function Services(){
                <h2>Extras</h2>
                   </Typography> 
             </div>
-            <br/>
+        
             <div id="flip-card-back">
               <Grid item xs={12}>
                 <Card className="root" variant="outlined">
@@ -126,18 +126,18 @@ export default function Services(){
                           <li>Organize closets and cupboards</li>
                         </ul>
                   </Typography>
-                    <Button></Button>
+           
                   </CardContent>
                 </Card>
               </Grid>
             </div>
           </div>
         </div>
-             </Grid>
+             {/* </Grid> */}
     
       
-        <br/>
-        <Grid id="grid">
+     
+        {/* <Grid id="grid"> */}
      
         <div class="flip-card">
         <div id="flip-card-inner">
@@ -147,7 +147,7 @@ export default function Services(){
                   </Typography> 
           
             </div>
-            <br/>
+         
             <div id="flip-card-back">
               <Grid item xs={12}>
                 <Card className="root" variant="outlined">
@@ -162,14 +162,14 @@ export default function Services(){
                           <li>Vacuum carpet and mop floors</li>
                         </ul>
                   </Typography>
-                    <Button></Button>
+ 
                   </CardContent>
                 </Card>
               </Grid>
             </div>
           </div>
         </div>
-        <br/>
+     
         <div class="flip-card">
         <div id="flip-card-inner">
           <div id="flip-card-front">
@@ -178,7 +178,7 @@ export default function Services(){
                   </Typography> 
          
             </div>
-            <br/>
+           
             <div id="flip-card-back">
               <Grid item xs={12}>
                 <Card className="root" variant="outlined">
@@ -199,14 +199,14 @@ export default function Services(){
                           <li>Vacuum and wash floors</li>
                         </ul>
                   </Typography>
-                    <Button></Button>
+                
                   </CardContent>
                 </Card>
               </Grid>
             </div>
           </div>
         </div>
-        <br/>
+        
         <div class="flip-card">
         <div id="flip-card-inner">
           <div id="flip-card-front">
@@ -215,7 +215,7 @@ export default function Services(){
                   </Typography> 
          
             </div>
-            <br/>
+          
             <div id="flip-card-back">
               <Grid item xs={12}>
                 <Card className="root" variant="outlined">
@@ -236,7 +236,7 @@ export default function Services(){
                           <li>Vacuum and wash floors</li>
                         </ul>
                   </Typography>
-                    <Button></Button>
+              
                   </CardContent>
                 </Card>
               </Grid>
@@ -244,7 +244,7 @@ export default function Services(){
           </div>
         </div>
      
-        </Grid> 
+        {/* </Grid>  */}
       </div>
   )
 }

@@ -10,10 +10,11 @@
     margin: 15px auto 30px auto;
     background-color: transparent;
     //border-color: transparent;
-    width: 500px;
+    width: 300px;
     height: 300px;
     border: none;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    //display: inline-block;
   }
   #flip-card-inner {
     position: relative;
@@ -24,8 +25,8 @@
     transform-style: preserve-3d;
   }
   .flip-card:hover #flip-card-inner {
-    color:rgb(206, 111, 202);
-    transition: transform 1s;
+    //color:rgb(206, 111, 202);
+    transition: transform 2s;
     transition-delay: 0.5s;
     transform: rotateY(180deg);
   }
@@ -50,18 +51,19 @@
   #flip-card-back, .questions {
     //color: white;
     transform: rotateY(180deg);
-     background-color: none;
-    color: black;
-    border-left-color:#eee;
-    border-radius:2px;
-   border-right-color:#eee;
-    border-top-color:#ddd;
-   box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
-    box-sizing: border-box;
+  //    background-color: none;
+  //   color: black;
+  //   border-left-color:#eee;
+  //   border-radius:2px;
+  //  border-right-color:#eee;
+  //   border-top-color:#ddd;
+  //  box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+  //   box-sizing: border-box;
+    overflow: scroll;
   }
   #grid{
     margin: 10% 30% 10% 30%;
-    // width: 35%;
+     width: 35%;
 
   }
   #results{
@@ -69,8 +71,10 @@
   }
 
 .service-container{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25% 25%;
-    grid-template-rows: 15% 15% 15% 15% 15%;
+  display: flex;
+  flex-wrap: wrap;
+    // display: grid;
+    // grid-template-columns: 25% 25% 25% 25% 25%;
+    // grid-template-rows: 15% 15% 15% 15% 15%;
   }
 
