@@ -8,13 +8,15 @@ import kitchen from '../images/kitchen.jpg';
 import secondKitchen from '../images/kitchen2.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './carousels.scss';
-import Card from 'react-bootstrap/Card';
+import Info from '../info/info';
+
+//import Card from 'react-bootstrap/Card';
 
 const Carousels = ()  => {
 
 
 return (
-
+<>
 <Carousel className="details">
 
   <Carousel.Item>
@@ -23,6 +25,7 @@ return (
       src={secondKitchen}
       alt="Best Cleaner"
     />
+    <div id="block"></div>
     <Carousel.Caption>
       <div id="welcome-header">
     <h1 id="header">Best Cleaner</h1>
@@ -52,16 +55,11 @@ return (
       alt="Best Cleaner"
     />
     <Carousel.Caption>
-    <Card id="sticky">
-  <Card.Body>  
+
+    <div id="welcome-header">
     <h1 id="header">Best Cleaner</h1>
       <p>Your free time wasn't made for housework</p>
-      </Card.Body>
-</Card>
-    {/* <div id="welcome-header">
-    <h1 id="header">Best Cleaner</h1>
-      <p>Your free time wasn't made for housework</p>
-      </div> */}
+      </div>
     </Carousel.Caption>
   </Carousel.Item>
 
@@ -94,8 +92,12 @@ return (
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-
+<div>
+     <Info/>
+</div>
+</>
     );
+
 }
 
 

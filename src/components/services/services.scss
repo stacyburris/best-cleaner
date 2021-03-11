@@ -1,5 +1,6 @@
 .root{
     text-align: left;
+    background-color: rgba(210, 229, 244, 0.562);
     // .container {
     //   display: grid;
     //   grid-template-columns: 1fr 1fr 1fr; /* fraction*/
@@ -10,7 +11,7 @@
     margin: 15px auto 30px auto;
     background-color: transparent;
     //border-color: transparent;
-    width: 300px;
+    width: 350px;
     height: 300px;
     border: none;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
@@ -20,17 +21,19 @@
     position: relative;
     width: 100%;
     height: 300px;
+   // margin-bottom: 0%;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
   }
   .flip-card:hover #flip-card-inner {
-    //color:rgb(206, 111, 202);
     transition: transform 2s;
     transition-delay: 0.5s;
     transform: rotateY(180deg);
   }
+
   #flip-card-front, #flip-card-back {
+    background-color: whitesmoke;
     position: absolute;
     width: 100%;
     height: 300px;
@@ -48,33 +51,64 @@
     box-sizing: border-box;
 
   }
-  #flip-card-back, .questions {
-    //color: white;
-    transform: rotateY(180deg);
-  //    background-color: none;
-  //   color: black;
-  //   border-left-color:#eee;
-  //   border-radius:2px;
-  //  border-right-color:#eee;
-  //   border-top-color:#ddd;
-  //  box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
-  //   box-sizing: border-box;
-    overflow: scroll;
+  #flip-card-front:hover{
+    background-color: rgba(150, 198, 238, 0.562);
   }
+  //.question 
+  #flip-card-back {
+    color: white;
+    transform: rotateY(180deg);
+     //background-color: none;
+    color: black;
+    border-left-color:#eee;
+    border-radius:2px;
+   border-right-color:#eee;
+    border-top-color:#ddd;
+   box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+    box-sizing: border-box;
+   overflow:scroll;
+    width: 350px;
+    height: 300px;
+
+  }
+  #flip-card-back::-webkit-scrollbar {
+    width: 0px; 
+    background: transparent; 
+  }
+
+  .question {
+  // overflow: scroll;
+  width: 100%;
+  height: 300px;    
+  margin-top: 10px;
+  }
+
   #grid{
-    margin: 10% 30% 10% 30%;
+    margin: 10% 30% 10% 35%;
      width: 35%;
 
   }
   #results{
-    text-align: center;
+    text-align: left;
   }
 
 .service-container{
   display: flex;
   flex-wrap: wrap;
+  margin: 40px;
+
     // display: grid;
     // grid-template-columns: 25% 25% 25% 25% 25%;
     // grid-template-rows: 15% 15% 15% 15% 15%;
   }
+  .backContent{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+  }
+
+ .page-container{
+   background-color: rgb(219, 219, 214);
+ } 
 
