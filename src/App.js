@@ -1,44 +1,3 @@
-//regular code without scroll feature
-
-// import React from 'react';
-// import Header from './components/header/header';
-// import Carousels from './components/carousels/carousels';
-// import Footer from './components/footer/footer';
-// //import Home from 
-// import Help from './components/help/help';
-// import Services from './components/services/services';
-// import Procedure from './components/procedure/procedure';
-// import Recommendations from './components/recommendations/recommendations';
-// import About from './components/about/about';
- 
-
-// function App() {
-//   return (
-//     <>
-//      <Header/>
-//      {/* <Carousels/> */}
-  
-//     <Switch>
-     
-//     {/* <Route exact path='/'/><Home/> */}
-//       <Route path='/carousels' component={Carousels} exact/>
-//       <Route path='/help' component={Help} exact/>
-//       <Route path='/recommendations' component={Recommendations} exact/> 
-//       <Route path='/services' component={Services} exact/>
-//       <Route path='/about' component={About} exact/>
-//       <Route path='/procedure' component={Procedure} exact/>
-//    </Switch>
-//     <Route path='/footer' component={Footer} exact/>
-//     </>
-//   );
-// }
-
-// export default App;
-
-//--------------------------------------
-
-// scrollable code
-
 import React from 'react';
 import Header from './components/header/header';
 import Carousels from './components/carousels/carousels';
@@ -53,6 +12,7 @@ import ReactPageScroller from 'react-page-scroller';
 import Help from './components/help/help';
 import { Switch, Route } from 'react-router-dom';
 import './App.scss';
+import './App.css';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -121,7 +81,26 @@ export default class App extends React.Component {
 }
 
 
-// put id in each fragment with vh height 
-        // <Pagination className="pagination-additional-class" bsSize="large">
-        //   {pagesNumbers}
-        // </Pagination> 
+
+// function App() {
+//   return (
+//     <>
+//      <Header/>
+//      {/* <Carousels/> */}
+  
+//     <Switch>
+     
+//     {/* <Route exact path='/'/><Home/> */}
+//       <Route path='/carousels' component={Carousels} exact/>
+//       <Route path='/help' component={Help} exact/>
+//       <Route path='/recommendations' component={Recommendations} exact/> 
+//       <Route path='/services' component={Services} exact/>
+//       <Route path='/about' component={About} exact/>
+//       <Route path='/procedure' component={Procedure} exact/>
+//    </Switch>
+//     <Route path='/footer' component={Footer} exact/>
+//     </>
+//   );
+// }
+
+// export default App;

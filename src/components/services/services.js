@@ -16,26 +16,11 @@ import './services.scss';
 //import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 //import Icon from '@material-ui/core/Icon';
 
-// const useStyles = makeStyles({
-//   root: {
-//     minWidth: 275,
-//   },
-//   bullet: {
-//     display: 'inline-block',
-//     margin: '0 2px',
-//     transform: 'scale(0.8)',
-//   },
-//   title: {
-//     fontSize: 14,
-//   },
 
-// });
-//container spacing={2} direction="column" 
-// container spacing={2} direction="column" 
-// option 1 with material ui card flip with service area of front and details on back 
 export default function Services(){
   //const classes = useStyles();
   return (
+<div class="page-container">
           <div class="service-container">
             {/* <Grid id="grid"> */}
             <div class="flip-card">
@@ -76,9 +61,7 @@ export default function Services(){
             <Typography variant="h5" component="h2">
                <h2>Bathroom</h2>
                   </Typography> 
-  
             </div>
-      
             <div id="flip-card-back">
               <Grid item xs={12}>
                 <Card className="root" variant="outlined">
@@ -94,7 +77,6 @@ export default function Services(){
                           <li>Vacuum and wash floors </li>
                         </ul>
                   </Typography>
-           
                   </CardContent>
                 </Card>
               </Grid>
@@ -245,6 +227,7 @@ export default function Services(){
         </div>
      
         {/* </Grid>  */}
+      </div>
       </div>
   )
 }

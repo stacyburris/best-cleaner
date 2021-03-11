@@ -23,6 +23,7 @@ return (
       src={secondKitchen}
       alt="Best Cleaner"
     />
+    <div id="block"></div>
     <Carousel.Caption>
       <div id="welcome-header">
     <h1 id="header">Best Cleaner</h1>
@@ -52,12 +53,7 @@ return (
       alt="Best Cleaner"
     />
     <Carousel.Caption>
-    {/* <Card id="sticky">
-  <Card.Body>  
-    <h1 id="header">Best Cleaner</h1>
-      <p>Your free time wasn't made for housework</p>
-      </Card.Body>
-</Card> */}
+
     <div id="welcome-header">
     <h1 id="header">Best Cleaner</h1>
       <p>Your free time wasn't made for housework</p>
