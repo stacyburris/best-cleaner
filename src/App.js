@@ -6,6 +6,7 @@ import Services from './components/services/services';
 import Recommendations from './components/recommendations/recommendations';
 import About from './components/about/about';
 import Procedure from './components/procedure/procedure';
+import Info from './components/info/info';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Pagination from 'react-bootstrap/Pagination'
 import ReactPageScroller from 'react-page-scroller';
@@ -32,7 +33,7 @@ export default class App extends React.Component {
   getPagesNumbers = () => {
     const pageNumbers = [];
 
-    for (let i = 1; i <= 7; i++) {
+    for (let i = 1; i <= 9; i++) {
       pageNumbers.push(
         <Pagination.Item key={i} eventKey={i - 1} onSelect={this.handlePageChange}>
           {i}
@@ -56,7 +57,9 @@ export default class App extends React.Component {
           onBeforePageScroll={this.handleBeforePageChange}
           customPageNumber={this.state.currentPage}
         >
+       
         <Carousels id="page-height"/>
+  {/* <Info/> */}
         <Help id="page-height"/>
         <Recommendations id="page-height"/> 
         <Services id="page-height"/>

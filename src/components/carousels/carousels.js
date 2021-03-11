@@ -8,13 +8,15 @@ import kitchen from '../images/kitchen.jpg';
 import secondKitchen from '../images/kitchen2.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './carousels.scss';
+import Info from '../info/info';
+
 //import Card from 'react-bootstrap/Card';
 
 const Carousels = ()  => {
 
 
 return (
-
+<>
 <Carousel className="details">
 
   <Carousel.Item>
@@ -90,8 +92,12 @@ return (
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-
+<div>
+     <Info/>
+</div>
+</>
     );
+
 }
 
 
