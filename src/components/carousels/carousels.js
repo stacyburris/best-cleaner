@@ -9,8 +9,10 @@ import secondKitchen from '../images/kitchen2.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './carousels.scss';
 import Info from '../info/info';
-
+import Help from '../help/help';
 //import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+
 
 const Carousels = ()  => {
 
@@ -30,6 +32,9 @@ return (
       <div id="welcome-header">
     <h1 id="header">Best Cleaner</h1>
       <p>Your free time wasn't made for housework</p>
+      <Button href="/footer" variant="secondary" size="sm">
+      Contact
+    </Button>
       </div>
     </Carousel.Caption>
   </Carousel.Item>
@@ -44,6 +49,9 @@ return (
     <div id="welcome-header">
     <h1 id="header">Best Cleaner</h1>
       <p>Your free time wasn't made for housework</p>
+      <Button href="/footer" variant="secondary" size="sm">
+      Contact
+    </Button>
       </div>
     </Carousel.Caption>
   </Carousel.Item>
@@ -59,6 +67,9 @@ return (
     <div id="welcome-header">
     <h1 id="header">Best Cleaner</h1>
       <p>Your free time wasn't made for housework</p>
+      <Button href="/footer" variant="secondary" size="sm">
+      Contact
+    </Button>
       </div>
     </Carousel.Caption>
   </Carousel.Item>
@@ -73,6 +84,9 @@ return (
     <div id="welcome-header">
     <h1 id="header">Best Cleaner</h1>
       <p>Your free time wasn't made for housework</p>
+      <Button href="/footer" variant="secondary" size="sm">
+      Contact
+    </Button>
     </div>
     </Carousel.Caption>
   </Carousel.Item>
@@ -88,13 +102,21 @@ return (
     <div id="welcome-header">
     <h1 id="header">Best Cleaner</h1>
       <p>Your free time wasn't made for housework</p>
+      <Button href="/footer" variant="secondary" size="sm">
+      Contact
+    </Button>
       </div>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
 <div>
-     <Info/>
+<Info id="page-height"/>
 </div>
+<br/>
+<div>
+     <Help id="page-height"/>
+</div>
+<br/>
 </>
     );
 
