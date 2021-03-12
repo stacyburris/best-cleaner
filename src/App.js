@@ -33,7 +33,7 @@ export default class App extends React.Component {
   getPagesNumbers = () => {
     const pageNumbers = [];
 
-    for (let i = 1; i <= 9; i++) {
+    for (let i = 1; i <= 5; i++) {
       pageNumbers.push(
         <Pagination.Item key={i} eventKey={i - 1} onSelect={this.handlePageChange}>
           {i}
@@ -59,9 +59,9 @@ export default class App extends React.Component {
         >
        
         <Carousels id="page-height"/>
-  {/* <Info/> */}
-        <Help id="page-height"/>
-        <Recommendations id="page-height"/> 
+        {/* <Info id="page-height"/> */}
+        {/* <Help id="page-height"/> */}
+        <Recommendations id="page-height"/>
         <Services id="page-height"/>
         <About id="page-height"/>
         <Procedure id="page-height"/>
