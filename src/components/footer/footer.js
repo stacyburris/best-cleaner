@@ -2,12 +2,13 @@
 import './footer.scss';
 
 
-
+//style={{height: 500}}
 const Footer = () => {
 
 
   return (
-    <div className="Footer">
+
+    <div className="Footer" >
       <footer>
         <hr />
         <p id="Footer">
@@ -19,6 +20,7 @@ const Footer = () => {
         </p>
       </footer>
     </div>
+  
   );
 }
   

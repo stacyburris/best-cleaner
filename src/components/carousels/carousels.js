@@ -9,14 +9,14 @@ import secondKitchen from '../images/kitchen2.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './carousels.scss';
 import Info from '../info/info';
-import Help from '../help/help';
+//import Help from '../help/help';
 //import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
 
 const Carousels = ()  => {
 
-
+// style={{height: 1000}}
 return (
 <>
 <Carousel className="details">
@@ -112,11 +112,11 @@ return (
 <div>
 <Info id="page-height"/>
 </div>
-<br/>
-<div>
+
+{/* <div>
      <Help id="page-height"/>
-</div>
-<br/>
+</div> */}
+
 </>
     );
 

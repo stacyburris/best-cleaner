@@ -5,26 +5,27 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
+// ADDED FOR REACT SCROLL TRIAL
+import {Link} from 'react-scroll'; 
 const Header = () => {
   return (
-    
+
  <Navbar collapseOnSelect fixed='top' bg="dark" variant="dark" expand="md">
 <Container>
-<Navbar.Brand href="/">Best Cleaner</Navbar.Brand>
+<Navbar.Brand><Link to="details">Best Cleaner</Link></Navbar.Brand>
 <Navbar.Toggle aria-controls='responsive-navbar-nav' />
 <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="/">Home</Nav.Link>
-      <Nav.Link href="/help">Support</Nav.Link>
-      <Nav.Link href="/recommendations">Recommendations</Nav.Link>
-      <Nav.Link href="/services">Services</Nav.Link>
-      <Nav.Link href="/about">About Me</Nav.Link>
-      <Nav.Link href="/procedure">Procedure</Nav.Link>
+      <Nav.Link><Link activeClass="active" to="details" spy={true} smooth={true} >Home</Link></Nav.Link>
+      <Nav.Link><Link to="help" spy={true} smooth={true}>Support</Link></Nav.Link>
+      <Nav.Link><Link to="recommendations" spy={true} smooth={true}>Recommendations</Link></Nav.Link>
+      <Nav.Link><Link to="services" spy={true} smooth={true}>Services</Link></Nav.Link>
+      <Nav.Link><Link to="about-nancy" spy={true} smooth={true}>About Me</Link></Nav.Link>
+      <Nav.Link><Link to="procedure" spy={true} smooth={true}>Procedure</Link></Nav.Link>
 
       
       <NavDropdown.Divider />
-      <Nav.Link href="/footer">Contact</Nav.Link>
+      <Nav.Link><Link to="Footer" spy={true} smooth={true}>Contact</Link></Nav.Link>
     </Nav>
     </Navbar.Collapse>
  </Container>
@@ -36,37 +37,10 @@ const Header = () => {
 export default Header; 
 
 
-// trial
 
-// function Header () {
-// // const [onToggleNav, setOnToggleNav] = useState(false);
-
-// // const displayDropDown = ()=>{
-// //   setOnToggleNav(true);
-// // }
-
-
-
-{/* 
-    {(displayDropDown) ?
-          <NavDropdown title="View All" >{onToggleNav}bghhfbht
-          <NavDropdown title="This is inside " id="collasible-nav-dropdown">
-          <NavDropdown.Item href="/services">Kitchen</NavDropdown.Item>
-          <NavDropdown.Item href="/services">Bathroom</NavDropdown.Item>
-          <NavDropdown.Item href="/services">Living Room</NavDropdown.Item>
-          <NavDropdown.Item href="/services">Bedrooms</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item href="/services">Extras</NavDropdown.Item>
-        </NavDropdown>          
-          
-          </NavDropdown> :  <NavDropdown>meow</NavDropdown>
-
-        } */}
-
-
-// searchbar option
-
-{/* <Form inline>
-      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-      <Button variant="outline-info">Search</Button>
-    </Form> */}
+// href="/carousels"
+// href="/help"
+// href="/recommendations"
+// href="/services"
+// href="/about"
+// href="/procedure"

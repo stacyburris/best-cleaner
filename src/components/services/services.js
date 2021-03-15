@@ -15,12 +15,12 @@ import './services.scss';
 //import { makeStyles } from '@material-ui/core/styles';
 //import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 //import Icon from '@material-ui/core/Icon';
-
+//style={{height: 1000}}
 
 export default function Services(){
   //const classes = useStyles();
   return (
-<div class="page-container">
+<div className="services">
           <div class="service-container">
             {/* <Grid id="grid"> */}
             <div class="flip-card">
