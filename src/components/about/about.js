@@ -12,9 +12,11 @@ const About = () => {
 //     alt="First slide"
 //   />
 // </Fade>  </Fade>  </Fade>  </Fade>
+
+// style={{height: 600}}
 return (
     // <section id="about">
-      <Container id="about-nancy">
+      <Container id="about-nancy" >
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
               <div className="about-image">

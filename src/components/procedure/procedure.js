@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 
 const Procedure = ()=> {
     return (
-   <Card>
+   <Card className="procedure">
     <Card.Body>
         <p>Contact me by phone, text or email.</p>
         <p>After the initial contact with a new client, I set up a time to visit their home.</p>
