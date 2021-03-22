@@ -1,22 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
-.about{
-    background-color: rgba(72, 179, 179, 0.714);
-
+.procedure{
+   
     h2{
         text-align: center;
-        margin-top: 10vh;
+        margin: 30px;
+        font-size: 2.5rem;
         font-family: 'Noto Sans SC', sans-serif; 
-
     }
-    p{
+    li {
         font-size: 1.2rem;
-        margin-left: 30px;
-        margin-top: 20px;
         font-family: 'Noto Sans SC', sans-serif; 
     }
 }
-#about-nancy{
-    // padding-top: 20px; 
-    padding-bottom: 40px;
-
- }
