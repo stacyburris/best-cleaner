@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+
+#welcome-header{
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.468);
+    font-family: 'Noto Sans SC', sans-serif; 
+    
+  h1{
+  
+    font-size: 3.5rem;
+    margin: 1.3rem;
+    font-weight: bold;
+    color: rgb(109, 106, 106);
+    text-shadow: 0.02em 0 rgb(54, 147, 170), 0 0.02em rgb(29, 100, 113);
+}  
+}
+#welcome-header p{
+    font-style: italic;
+    font-size: 30px;
+   color: rgb(141, 136, 136);
+    text-shadow: 0.02em 0 rgb(122, 121, 121), 0 0.02em rgb(122, 121, 121);
+}
+

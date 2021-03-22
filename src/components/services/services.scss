@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
 .root{
     text-align: left;
     background-color: rgba(210, 229, 244, 0.562);
+    font-family: 'Noto Sans SC', sans-serif; 
     // .container {
     //   display: grid;
     //   grid-template-columns: 1fr 1fr 1fr; /* fraction*/
     // }
-    
+
   }
   .flip-card {
     margin: 15px auto 30px auto;
@@ -52,7 +54,7 @@
 
   }
   #flip-card-front:hover{
-    background-color: rgba(150, 198, 238, 0.562);
+    background-color: rgba(72, 179, 179, 0.714);
   }
   //.question 
   #flip-card-back {
@@ -96,10 +98,6 @@
   display: flex;
   flex-wrap: wrap;
   margin: 40px;
-
-    // display: grid;
-    // grid-template-columns: 25% 25% 25% 25% 25%;
-    // grid-template-rows: 15% 15% 15% 15% 15%;
   }
   .backContent{
     margin-top: 10px;
@@ -107,8 +105,5 @@
     margin-right: 10px;
     margin-bottom: 0px;
   }
-
- .services{
-   background-color: rgb(219, 219, 214);
- } 
+ 
 

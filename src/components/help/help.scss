@@ -1,6 +1,22 @@
-// #help-container{
-//     margin-top: 150px;
-// }
-// #help{
-//     margin-top: 30px;
-// }
+
+
+.help{
+    font-family: 'Noto Sans SC', sans-serif; 
+  
+    h2{
+        font-size: 2.5rem;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        text-align: center;
+    }
+    p{
+        font-size: 1.1rem;
+
+    }
+}
+#profile{
+    margin-top: 10vh;
+     height: 75vh;
+    border: rgb(109, 106, 106) 4px solid;
+    border-radius: 2px;
+}

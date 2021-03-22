@@ -15,7 +15,7 @@ const About = () => {
 
 // style={{height: 600}}
 return (
-    // <section id="about">
+ <div className="about">
       <Container id="about-nancy" >
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
@@ -29,7 +29,8 @@ return (
           </Col>
           <Col md={6} sm={12}>
           
-              <div className="about">
+              <div>
+                <h2>About Me...</h2>
                 <p>I am a licensed and bonded professional House Cleaner.  My business has been operating in the greater Seattle area for 10 years.  My cleanings are done in homes with or without pets and kids. Using my excellent organizational skills, I pick up misplaced items and put them where they belong and tidy up shelves and furniture as I dust and clean.
                 </p>
                 <p>It is important for me to take the time to listen and understand your needs and customize a professional cleaning that you'll be completely satisfied with every time. I conduct myself as a professional and a friend with each of my clients.  
@@ -41,7 +42,7 @@ return (
           </Col>
         </Row>
       </Container>
-    // </section>
+      </div>
   );
 };
 

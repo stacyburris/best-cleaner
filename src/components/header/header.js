@@ -4,12 +4,15 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+import './header.scss';
 
 // ADDED FOR REACT SCROLL TRIAL
 import {Link} from 'react-scroll'; 
 const Header = () => {
   return (
-
+<>
  <Navbar collapseOnSelect fixed='top' bg="dark" variant="dark" expand="md">
 <Container>
 <Navbar.Brand><Link to="details">Best Cleaner</Link></Navbar.Brand>
@@ -30,7 +33,28 @@ const Header = () => {
     </Navbar.Collapse>
  </Container>
  </Navbar>
-    
+
+ <Card>
+   <div id="welcome-header">
+ <Card.Header>Your "Best" Clean Yet!</Card.Header>
+ <Card.Body>
+   <blockquote className="blockquote mb-0">
+     
+       {' '}
+       <h1 className="header">Best Cleaner</h1>{' '}
+
+     <footer>
+     <p>Your free time wasn't made for housework</p>
+     </footer>
+     <Button variant="outline-info">
+  <Nav><Link to="Footer" spy={true} smooth={true}>Contact</Link></Nav>
+</Button>
+
+   </blockquote>
+ </Card.Body>
+ </div>
+</Card>
+    </>
   )
 }
 
