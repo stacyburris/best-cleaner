@@ -1,16 +1,13 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import livingRoom from '../images/Livingroom.jpg';
-//import bathroom from '../images/Bathroom.jpg';
 import bathroom from '../images/Bathroom.jpg';
-import bedroom from '../images/Bedroom.jpg';
-import kitchen from '../images/Kitchen.jpg';
+import bedroom from '../images/bedroom.jpg';
+import kitchen from '../images/kitchen.jpg';
 import secondKitchen from '../images/secondKitchen.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './carousels.scss';
 import Info from '../info/info';
-//import Help from '../help/help';
-//import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Nav from 'react-bootstrap/Nav';
 import {Link} from 'react-scroll'; 
