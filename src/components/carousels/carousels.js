@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import livingRoom from '../images/Livingroom.jpg';
+import livingRoom from '../images/livingroom.jpg';
 import bathroom from '../images/Bathroom.jpg';
 import bedroom from '../images/bedroom.jpg';
 import kitchen from '../images/kitchen.jpg';
