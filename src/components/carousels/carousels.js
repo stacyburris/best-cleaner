@@ -8,9 +8,9 @@ import secondKitchen from '../images/secondKitchen.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './carousels.scss';
 import Info from '../info/info';
-import Button from 'react-bootstrap/Button';
-import Nav from 'react-bootstrap/Nav';
-import {Link} from 'react-scroll'; 
+//import Button from 'react-bootstrap/Button';
+// import Nav from 'react-bootstrap/Nav';
+// import {Link} from 'react-scroll'; 
 
 const Carousels = ()  => {
 
