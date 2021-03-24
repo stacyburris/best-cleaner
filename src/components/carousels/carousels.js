@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import livingRoom from '../images/livingroom.jpg';
+import greyLivingRoom from '../images/greyLivingRoom.jpg';
 import bathroom from '../images/Bathroom.jpg';
 import bedroom from '../images/bedroom.jpg';
 import kitchen from '../images/kitchen.jpg';
@@ -31,7 +31,7 @@ return (
   <Carousel.Item>
     <img id="images"
       className="d-block w-100"
-      src={livingRoom}
+      src={greyLivingRoom}
       alt="Best Cleaner"
     />
   </Carousel.Item>

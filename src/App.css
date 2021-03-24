@@ -25,7 +25,9 @@
     }
 
 
-
+    .carousel-indicators li {
+      background-color: transparent; 
+    }
 
  #center-text {
       text-align: center;
