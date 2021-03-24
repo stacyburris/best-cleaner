@@ -2,21 +2,54 @@
 .Footer{
     background-color:rgb(58, 56, 56);
     color:whitesmoke;
-    text-align: right;
-    padding-right: 20px;
     font-family: 'Noto Sans SC', sans-serif; 
+       text-transform: uppercase;
     a{
       color:whitesmoke;
       text-decoration: none;
+   
     }
-    margin-top: 0px;
-    padding-bottom: 20px;
+    #site-info{
+      text-align: center;
+      font-family: 'Noto Sans SC', sans-serif;
+      font-weight: 500; 
+      font-style: normal;
+      font-size: 12px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+    h3{
+      text-align: center;
+      margin-top: 100px;
+      margin-bottom: 20px;
+      font-family: 'Noto Sans SC', sans-serif; 
+    }
+    margin-top: 0vh;
+    //padding-bottom: 40px;
+    height: 90vh;
   }
   #icon{
-    margin: 0 10px 20px 10px;
+    margin: 20px 10px 20px 10px;
 
   }
   .ven-image{
     width: 30px;
     height: 30px;
+    
+  }
+  .contact-link{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  #submission{
+
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .yelp{
+    margin-bottom: 20px;
   }

@@ -21,8 +21,9 @@ export default function Services(){
   //const classes = useStyles();
   return (
 <div className="services">
+       <h2 className="header-service">Services I Provide</h2>
           <div class="service-container">
-            <h2>Services I Provide</h2>
+       
             {/* <Grid id="grid"> */}
             <div class="flip-card">
               <div id="flip-card-inner">

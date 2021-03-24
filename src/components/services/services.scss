@@ -51,7 +51,10 @@
     border-top-color:#ddd;
     box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
     box-sizing: border-box;
-
+ h2{
+  font-family: 'Noto Sans SC', sans-serif; 
+  padding-top: 60px;
+ }
   }
   #flip-card-front:hover{
     background-color: rgba(72, 179, 179, 0.714);
@@ -68,9 +71,14 @@
     border-top-color:#ddd;
    box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
     box-sizing: border-box;
+   
    overflow:scroll;
+   overflow-x: hidden;
+   overflow-y: auto;
+  //  overflow: hidden;
     width: 350px;
     height: 300px;
+    padding-bottom: 0;
 
   }
   #flip-card-back::-webkit-scrollbar {
@@ -104,6 +112,11 @@
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 0px;
+  }
+  .header-service{
+    text-align: center;
+    font-family: 'Noto Sans SC', sans-serif; 
+     margin-top: 40px;
   }
  
 
