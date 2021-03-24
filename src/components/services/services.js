@@ -22,6 +22,7 @@ export default function Services(){
   return (
 <div className="services">
           <div class="service-container">
+            <h2>Services I Provide</h2>
             {/* <Grid id="grid"> */}
             <div class="flip-card">
               <div id="flip-card-inner">
