@@ -37,3 +37,8 @@
 
 + Learning Venmo rules for adding payment submission on to a personal website
 
+### Feedback from Client
+
++ Picture sizes for desktop and mobile
+
++ Look into Venmo for business 
