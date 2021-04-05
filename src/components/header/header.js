@@ -36,7 +36,6 @@ const Header = () => {
 
  <Card>
    <div id="welcome-header">
- <Card.Header>Your "Best" Clean Yet!</Card.Header>
  <Card.Body>
    <blockquote className="blockquote mb-0">
      

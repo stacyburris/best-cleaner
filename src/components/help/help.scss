@@ -1,22 +1,26 @@
+.help {
+  font-family: "Noto Sans SC", sans-serif;
 
-
-.help{
-    font-family: 'Noto Sans SC', sans-serif; 
-  
-    h2{
-        font-size: 2.5rem;
-        margin-top: 5vh;
-        margin-bottom: 5vh;
-        text-align: center;
-    }
-    p{
-        font-size: 1.1rem;
-
-    }
+  h2 {
+    font-size: 2.5rem;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    text-align: center;
+  }
+  p {
+    font-size: 1.1rem;
+  }
 }
-#profile{
-    margin-top: 10vh;
-     height: 75vh;
-    border: rgb(109, 106, 106) 4px solid;
-    border-radius: 2px;
+
+.help-container {
+  background-color: rgba(63, 161, 161, 0.714);
+  color: whitesmoke;
+  padding-bottom: 5vh;
+}
+#profile {
+  margin-top: 10vh;
+  height: auto;
+  width: auto;
+  border: rgb(109, 106, 106) 4px solid;
+  border-radius: 2px;
 }
