@@ -1,27 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
-.about{
-    background-color: rgba(72, 179, 179, 0.714);
-
-    h2{
-        text-align: center;
-        margin-top: 10vh;
-        font-family: 'Noto Sans SC', sans-serif; 
-
-    }
-    p{
-        font-size: 1.2rem;
-        margin-left: 10px;
-        margin-top: 20px;
-        font-family: 'Noto Sans SC', sans-serif; 
-    }
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap");
+.about {
+  background-color: rgba(63, 161, 161, 0.714);
+  color: whitesmoke;
+  h2 {
+    text-align: center;
+    margin-top: 10vh;
+    font-family: "Noto Sans SC", sans-serif;
+  }
+  p {
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-family: "Noto Sans SC", sans-serif;
+  }
 }
-#about-nancy{
-    padding-top: 20px; 
-    padding-bottom: 40px;
-
- }
-#profile{
-    margin-top: 20vh;
-    height: auto;
-    width:auto
+#about-nancy {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+#profile {
+  margin-top: 20vh;
+  height: auto;
+  width: auto;
 }
