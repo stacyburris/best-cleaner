@@ -8,11 +8,12 @@ import './help.scss';
 const Help = () => {
 
 return (
-  <>
+  
+  <div className="help-container">
       <Container className="help">
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
-              <div className="help-container">
+              <div>
                 <h2>How I Can Help</h2>
                 <p>  Imagine you have worked all day and finally make it home looking forward to relaxing for the evening.  Instead when you walk in the door you see the sink full of dirty dishes, filthy clothes are left around the house, the bed is not made, the shower is beginning to smell and look like mold and the floors are covered with dirt.  The last thing you want to do is pull out your rubber gloves and a sponge to clean the floor or the vacuum cleaner to get the dirt off of the carpets and furniture. <strong>Instead what you need is a professional cleaning!</strong>
                 </p>
@@ -23,8 +24,6 @@ return (
 
 
 
-
-               
 <br/>
               </div>    
           </Col>
@@ -42,7 +41,7 @@ return (
 {/* <div>
   <Recommendations/>
 </div> */}
-</>
+</div>
   );
 };
 
